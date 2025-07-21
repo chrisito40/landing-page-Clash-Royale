@@ -5,3 +5,34 @@
  Aquí vamos a estilizar todos las secciones, sus contenidos y el responsive.
 
 */
+
+/*  Header */
+
+.header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 100;
+  background-color: aqua;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: var(--space-normal);
+}
+
+.navbar-menu {
+  display: flex;
+  gap: var(--space-medium);
+}
+
+.navbar-menu a {
+  font-family: var(--font-primary);
+  text-transform: uppercase;
+}
+
+.navbar-menu a:hover{
+  color: var(--primary-color);
+}
