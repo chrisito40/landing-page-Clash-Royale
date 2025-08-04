@@ -15,11 +15,15 @@
   z-index: 100;
 }
 
+/*Navbar */
+
 .navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: var(--space-normal);
+  background-color: var(--dark-color-transparent);
+  backdrop-filter: blur(10px);
 }
 
 .navbar-menu {
