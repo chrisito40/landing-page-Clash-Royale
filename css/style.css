@@ -197,7 +197,13 @@
   font-size: 3rem;
 }
 
-
+/* About */
+.about {
+  background-color: url('../assets/image/background-about.png');
+  background: linear-gradient(90deg,rgba(255, 0, 0, 1) 0%, rgba(20, 91, 235, 0.51) 100%);
+  background-size: cover;
+  background-position: center;
+}
 
 
 
